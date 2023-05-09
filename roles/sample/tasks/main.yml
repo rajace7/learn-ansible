@@ -5,3 +5,7 @@
 - name: prininting another message from role
   ansible.builtin.debug:
     msg: "Another hello from roles sample"
+
+- name : print variable from role
+  ansible.builtin.debug:
+    msg : URL - {{ URL }}
