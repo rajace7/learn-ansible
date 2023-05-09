@@ -7,6 +7,14 @@
       ansible.builtin.debug:
         msg : URL - {{ URL }}
 
+- name : Load variable from files
+  hosts : all
+  vars_files :
+    - file1.yml
+  tasks:
+    - name : print the file variable
+      ansible.builtin.debug:
+        msg : URL - {{ URL }}
 
 
 - name : Demo on Task variable
