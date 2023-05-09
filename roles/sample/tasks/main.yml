@@ -1,3 +1,7 @@
 - name: prininting from roles
   ansible.builtin.debug:
     msg: "hello from roles sample"
+
+- name: prininting another message from role
+  ansible.builtin.debug:
+    msg: "Another hello from roles sample"
