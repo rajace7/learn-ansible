@@ -28,7 +28,7 @@
 
 - name : demo on role variables
   hosts : all
-  vars_play :
-    URL : role.play_variable.com
+  vars :
+    URL_PLAY : role.play_variable.com
   roles:
     - sample
