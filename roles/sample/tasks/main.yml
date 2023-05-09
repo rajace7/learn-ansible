@@ -9,3 +9,7 @@
 - name : print variable from role
   ansible.builtin.debug:
     msg : "URL - {{ URL }}"
+
+- name : print variable form paly_Role
+  ansible.builtin.debug:
+    msg : URL - {{ URL }}
