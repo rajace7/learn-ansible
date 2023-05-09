@@ -8,4 +8,4 @@
 
 - name : print variable from role
   ansible.builtin.debug:
-    msg : URL - {{ URL }}
+    msg : "URL - {{ URL }}"
