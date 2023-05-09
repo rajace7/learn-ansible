@@ -1,0 +1,8 @@
+- name : demo on prinint variable from play level
+  hosts : all
+  vars :
+    URL : play.variable.com
+- name : print the play variable
+  tasks:
+    ansible.builtin.debug:
+      msg : URL - {{ URL }}
