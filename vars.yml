@@ -12,4 +12,7 @@
       ansible.builtin.debug:
         msg : URL - {{ URL }}
 
-
+  tasks:
+    - name : print the play variable2
+      ansible.builtin.debug:
+        msg : URL - {{ URL }}
