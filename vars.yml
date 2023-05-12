@@ -7,6 +7,12 @@
       ansible.builtin.debug:
         msg : URL - {{ URL }}
 
+   tasks:
+      - name : print the play variable1
+        ansible.builtin.debug:
+          msg : URL - {{ URL }}
+
+
 - name : Load variable from files
   hosts : all
   vars_files :
