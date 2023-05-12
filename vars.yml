@@ -8,6 +8,7 @@
         msg : URL - {{ URL }}
 
 - name : demo on prinint variable from play level
+  hosts : all
   tasks:
     - name : print the play variable1
       ansible.builtin.debug:
